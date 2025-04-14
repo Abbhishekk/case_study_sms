@@ -1,4 +1,5 @@
-package model;
+package com.student_service.model;
+
 import jakarta.persistence.*;
 import lombok.*;
 
@@ -7,12 +8,13 @@ import lombok.*;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class Course {
+public class Student {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long courseId;
+    private Long studentId;
 
-    private String title;
-    private String description;
+    private String name;
+    private String email;
+    private Long assignedCourseId;
 }

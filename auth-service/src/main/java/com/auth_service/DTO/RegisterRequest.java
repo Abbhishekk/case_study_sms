@@ -1,4 +1,4 @@
-package DTO;
+package com.auth_service.DTO;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,8 +9,8 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class LoginRequest {
-
+public class RegisterRequest {
+    private String name;
     private String email;
     private String password;
 }

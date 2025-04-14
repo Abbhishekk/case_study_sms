@@ -1,4 +1,4 @@
-package entity;
+package com.auth_service.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

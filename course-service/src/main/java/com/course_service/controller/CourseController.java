@@ -1,14 +1,13 @@
-package controller;
+package com.course_service.controller;
 
-import model.Course;
+import com.course_service.model.Course;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import repository.CourseRepository;
+import com.course_service.repository.CourseRepository;
 
 import java.util.List;
 
 @RestController
-@RequestMapping("/courses")
 public class CourseController {
 
     @Autowired

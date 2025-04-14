@@ -1,6 +1,6 @@
-package repository;
+package com.auth_service.repository;
 
-import entity.Student;
+import com.auth_service.entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

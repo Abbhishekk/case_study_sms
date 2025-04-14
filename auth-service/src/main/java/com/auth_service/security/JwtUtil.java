@@ -1,4 +1,4 @@
-package security;
+package com.auth_service.security;
 
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
